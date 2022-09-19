@@ -1,0 +1,176 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.I</p>
+
+<form method="post">
+    <label class="titulo" for="TextBoxDatoEntrada">Contrato *</label>
+    <input name="test" type="text" placeholder="Ingrese el número IIII" asp-antiforgery="false" />
+</form>
+
+<hr />
+<asp:Button ID="MyButton" Onclick="MyButton_Click" Text="Submit" runat="server"/>
+<hr />
+<div class="container-fluid container formulario">
+    <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 row no-padding">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 no-padding">
+                <asp:Panel ID="pnlValidacionFormulario" runat="server" CssClass="error">
+                    <asp:BulletedList ID="blMensajesValidacion" runat="server"></asp:BulletedList>
+                </asp:Panel>
+                <asp:Panel ID="PanelPaso1" runat="server" Visible="true">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 no-padding">
+                        <label class="titulo" for="txtNumContrato">Número de contrato yyyt</label>
+                        <asp:TextBox ID="txtNumContrato" runat="server"
+                                     MaxLength="20" AutoCompleteType="Disabled"></asp:TextBox>
+                        <label class="desc_camp"
+                               for="txtNumContrato">
+                            * Ingrese su número de contrato
+                        </label>
+                    </div>
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 no-padding">
+                        <div id="captcha" style="margin-top: 7px;" data-callback="enableChk"></div>
+                        <asp:CheckBox ID="chValida" runat="server"
+                                      Style="visibility: hidden"></asp:CheckBox>
+                    </div>
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 no-padding">
+                        <asp:Button ID="BtnPaso1" runat="server" Text="Enviar" OnClick="BtnPaso1_Click" />
+                    </div>
+                </asp:Panel>
+
+                <asp:Panel ID="PanelPaso2" runat="server" Visible="false">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 no-padding">
+                        <label class="titulo" for="txtNombre">Nombre del cliente o Razón Social</label>
+                        <asp:TextBox ID="txtNombre" runat="server"
+                                     MaxLength="100" AutoCompleteType="Disabled"></asp:TextBox>
+                        <label class="desc_camp" for="txtNombre">* Ingrese nombre completo IIIII</label>
+                    </div>
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 no-padding">
+                        <label class="titulo" for="ddlTipoIdentificacion">Tipo de identificación</label>
+                        <asp:DropDownList ID="ddlTipoIdentificacion" runat="server"></asp:DropDownList>
+                        <label class="desc_camp" for="ddlTipoIdentificacion">
+                            * Seleccione el tipo de identificación
+                        </label>
+                    </div>
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 no-padding">
+                        <label class="titulo" for="txtNumIdentificacion">Número de identificación</label>
+                        <asp:TextBox ID="txtNumIdentificacion" runat="server"
+                                     MaxLength="20" AutoCompleteType="Disabled"></asp:TextBox>
+                        <label class="desc_camp" for="txtNumIdentificacion">* Ingrese número de identificación</label>
+                    </div>
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 no-padding">
+                        <label class="titulo" for="txtNumTelefono">Teléfono de contacto</label>
+                        <asp:TextBox ID="txtNumTelefono" runat="server"
+                                     MaxLength="20" AutoCompleteType="Disabled"></asp:TextBox>
+                        <label class="desc_camp" for="txtNumTelefono">* Ingrese número de teléfono</label>
+                    </div>
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 no-padding">
+                        <label class="titulo" for="txtCorreoElectronico">Correo Electrónico</label>
+                        <asp:TextBox ID="txtCorreoElectronico" runat="server"
+                                     MaxLength="100" AutoCompleteType="Disabled"></asp:TextBox>
+                        <label class="desc_camp" for="txtCorreoElectronico">
+                            Ingrese la dirección de correo electrónico
+                        </label>
+                    </div>
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 no-padding">
+                        <label class="titulo" for="txtValor">Valor a contribuir</label>
+                        <asp:TextBox ID="txtValor" runat="server"
+                                     MaxLength="20" AutoCompleteType="Disabled"></asp:TextBox>
+                        <label class="desc_camp" for="txtValor">* Ingrese valor a contrubuir</label>
+                    </div>
+                    <br />
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 no-padding">
+                        <asp:Button ID="BtnPaso2" runat="server" Text="Continuar" OnClick="BtnPaso2_Click" />
+                    </div>
+                </asp:Panel>
+            </div>
+            <asp:Panel ID="PanelPaso3" Visible="false" runat="server">
+                <div class="wizard-heading">Confirmación de datos para Aporte voluntario</div>
+                <div class="wizard-content">
+                    <p class="desc_camp"
+                       id="descTblPago">
+                        Por favor revise los datos a continuación,
+                        si son correctos continúe a Mercado Pago para realizar su aporte de manera segura.
+                    </p>
+                    <table class="tablePago" style="text-align: left;" aria-describedby="descTblPago">
+
+                        <tr>
+                            <th class="tdcolumnLeft" scope="col"></th>
+                            <th scope="col"></th>
+                        </tr>
+
+                        <tr>
+                            <td class="tdcolumnLeft">Número de contrato</td>
+                            <td>
+                                <asp:Label ID="lblNumContrato" runat="server"></asp:Label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdcolumnLeft">Nombre del cliente o Razón Social</td>
+                            <td>
+                                <asp:Label ID="lblNombre" runat="server"></asp:Label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdcolumnLeft">
+                                <asp:Label ID="lblTipoIdentificacion" runat="server"></asp:Label>
+                            </td>
+                            <td>
+                                <asp:Label ID="lblNumIdentificacion" runat="server"></asp:Label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdcolumnLeft">Teléfono de contacto</td>
+                            <td>
+                                <asp:Label ID="lblNumTelefono" runat="server"></asp:Label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdcolumnLeft">Correo electrónico</td>
+                            <td>
+                                <asp:Label ID="lblCorreoElectronico" runat="server"></asp:Label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdcolumnLeft">Valor a contribuir</td>
+                            <td>
+                                <asp:Label ID="lblValorPagar" runat="server"></asp:Label>
+                            </td>
+                        </tr>
+                    </table>
+                    <br />
+                    <br />
+                    <div>
+                        <table style="width: 100%;" summary="Botones">
+
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col" style="text-align: right"></th>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <asp:Button ID="BtnPaso3Atras" runat="server" CausesValidation="false"
+                                                Text="Atrás" OnClick="BtnPaso3Atras_Click" />
+                                </td>
+                                <td style="text-align: right">
+                                    <div>
+                                        <asp:Button ID="BtnPaso3" runat="server"
+                                                    Text="Aportar" OnClick="BtnPaso3_Click" />
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </asp:Panel>
+        </div>
+    </div>
+
+    <asp:HiddenField ID="hfContrato" runat="server" />
+    <asp:HiddenField ID="hfValorAporte" runat="server" />
+</div>
+
+

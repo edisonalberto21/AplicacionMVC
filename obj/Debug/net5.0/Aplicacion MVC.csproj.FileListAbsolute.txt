@@ -1,0 +1,40 @@
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\bin\Debug\net5.0\appsettings.json
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\bin\Debug\net5.0\Aplicacion MVC.exe
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\bin\Debug\net5.0\Aplicacion MVC.deps.json
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\bin\Debug\net5.0\Aplicacion MVC.runtimeconfig.json
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\bin\Debug\net5.0\Aplicacion MVC.runtimeconfig.dev.json
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\bin\Debug\net5.0\Aplicacion MVC.dll
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\bin\Debug\net5.0\ref\Aplicacion MVC.dll
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\bin\Debug\net5.0\Aplicacion MVC.pdb
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\bin\Debug\net5.0\Aplicacion MVC.Views.dll
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\bin\Debug\net5.0\Aplicacion MVC.Views.pdb
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\Aplicacion MVC.csproj.AssemblyReference.cache
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\Aplicacion MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\Aplicacion MVC.AssemblyInfoInputs.cache
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\Aplicacion MVC.AssemblyInfo.cs
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\Aplicacion MVC.csproj.CoreCompileInputs.cache
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\Aplicacion MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\Aplicacion MVC.RazorAssemblyInfo.cache
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\Aplicacion MVC.RazorAssemblyInfo.cs
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\staticwebassets\Aplicacion MVC.StaticWebAssets.Manifest.cache
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\staticwebassets\Aplicacion MVC.StaticWebAssets.xml
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\scopedcss\bundle\Aplicacion MVC.styles.css
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\Aplicacion MVC.TagHelpers.input.cache
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\Aplicacion MVC.TagHelpers.output.cache
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\Aplicacion MVC.RazorCoreGenerate.cache
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\Aplicacion MVC.RazorTargetAssemblyInfo.cache
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\Aplicacion MVC.RazorTargetAssemblyInfo.cs
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\Aplicacion MVC.Views.pdb
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\Aplicacion MVC.dll
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\ref\Aplicacion MVC.dll
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\Aplicacion MVC.pdb
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\Aplicacion MVC.genruntimeconfig.cache
+C:\Users\Edison.Giraldo\source\repos\Aplicacion MVC\Aplicacion MVC\obj\Debug\net5.0\Aplicacion MVC.csproj.CopyComplete
